@@ -1,0 +1,14 @@
+<div class="container">
+  <h3 class="m-4 text-center">Listado de agentes</h3>
+  <div *ngFor="let agente of agentes.data; let i = index" class="w-50">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a class="btn btn-secondary m-1 p-1" routerLink="editor/{{ agente.id }}">
+          <i class="bi bi-pencil-square"></i>
+          Editar
+        </a>
+        {{ agente.first_name }}, {{ agente.last_name }}.
+      </li>
+    </ul>
+  </div>
+</div>

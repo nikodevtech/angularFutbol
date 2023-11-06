@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "partidos-futbol-efa46": {
+      "hosting": {
+        "partidos": [
+          "partidos-futbol-efa46"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "partidos-futbol-efa46"
+  }
+}
